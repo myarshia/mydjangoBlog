@@ -12,14 +12,16 @@
     <p>=====================================================================</p>
   </head>
   <body>
-    <h1>Articles List</h1>
-    {% for article in articles %}
-    <section id="{{article.slug}}">
-    <h2><a href="#">{{article.title}}</a></h2>
-    <p>{{article.snippet}}</p>
-    <p>{{article.date}}</p>
-    <p>=====================================================================</p>
-    <p>=====================================================================</p>
-    {% endfor %}
+    <div class="container">
+      <h1>Articles List</h1>
+      {% for article in articles %}
+      <section id="{{article.slug}}">
+      <h2><a href="#">{{article.title}}</a></h2>
+      <p>{{article.snippet}}</p>
+      <p>{{article.date}}</p>
+      <p>=====================================================================</p>
+      <p>=====================================================================</p>
+      {% endfor %}
+    </div>
   </body>
 </html>
