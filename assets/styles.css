@@ -5,6 +5,7 @@ body{
   background-attachment: fixed;
   color: #fff;
 }
+
 body *{
   font-family: arial;
 }
@@ -17,4 +18,72 @@ h1,h2,h3,h4,h5,h6{
 a,a:hover,a:visited{
   color: #69ffb6;
   text-decoration:none;
+}
+
+.wrapper{
+  max-width:1000px;
+  margin:0 auto;
+}
+
+div.wrapper h1{
+  text-align:center;
+  margin:100px auto;
+  font-size:3.1em;
+}
+
+header{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  padding:20px 0;
+}
+
+nav li{
+  display:inline-block;
+  margin-left:20px;
+}
+
+nav button{
+  background:none;
+  color:#69ffb6;
+  cursor:pointer;
+  border:0;
+  font-size:1.1em;
+}
+
+.articles{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:50px;
+}
+
+.article{
+  padding:10px;
+  border:1px solid #00dba0;
+  position:relative;
+  padding-bottom:40px;
+}
+
+.article h2{
+  font-size:1.6em;
+}
+
+.article .author{
+  padding:10px;
+  background-color:#00dba0;
+  position:absolute;
+  color:#06141f;
+}
+
+.article-detail .article p{
+  text-align:left;
+  padding:25px;
+}
+
+.article-detail .article img{
+  max-width:100%;
+}
+
+.article-detail .article h1{
+  text-align:center;
+  font-size:3.3em;
 }
