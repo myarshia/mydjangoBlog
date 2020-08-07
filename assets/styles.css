@@ -59,6 +59,7 @@ nav button{
 .article{
   padding:10px;
   border:1px solid #00dba0;
+  border-radius:25px;
   position:relative;
   padding-bottom:40px;
 }
@@ -70,6 +71,7 @@ nav button{
 .article .author{
   padding:10px;
   background-color:#00dba0;
+  border-radius:10px;
   position:absolute;
   color:#06141f;
 }
@@ -86,4 +88,54 @@ nav button{
 .article-detail .article h1{
   text-align:center;
   font-size:3.3em;
+}
+
+.site-form{
+  margin-top:60px;
+  margin-bottom:60px;
+  border:1px solid #00dba0;
+  border-radius:20px;
+  padding:20px;
+}
+
+.site-form input,.site-form textarea{
+  display:block;
+  border-radius:10px;
+  margin:25px 0 5px 40px;
+  padding:10px;
+}
+
+a.highlight{
+  border:1px solid #9becc5;
+  padding:10px;
+  border-radius:10px;
+}
+
+.helptext,.helptext ul{
+  margin:0 auto 20px;
+  color:#bbb;
+  font-size:0.95em;
+  display:block;
+}
+
+.errorlist li{
+  padding:10px;
+  list-style-type:none;
+  border:1px solid #ff5722;
+  border-radius:10px;
+  color:#ff5722;
+  margin:10px 0;
+}
+
+.errorlist{
+  padding:0;
+}
+
+.site-form input[type="submit"]{
+  border:0;
+  color:#fff;
+  font-size:1.2em;
+  background-color:#00dba0;
+  border-radius:6px;
+  margin:30px 0 20px 40px;
 }
